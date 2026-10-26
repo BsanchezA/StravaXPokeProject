@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Welcome to Strava X Pokemon Webpage!</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: white;
+            }
+
+            #Activity-Form {
+                background: white;
+                padding: 30px;
+                border-radius: 8px;
+                box-shadow: 0 4px 10px black;
+                width: 400px;
+            }
+            .form-group {
+                margin-bottom: 20px;
+            }
+
+            label {
+                display: block;
+                margin-bottom: 8px;
+                font-weight: bold;
+                font-size: 1.1rem;
+            }
+
+            input[type = "date"], input[type = "text"]{
+                width: 100%;
+                padding: 12px;
+                font-size: 1.1rem;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+            }
+
+            button {
+                width: 100%;
+                padding: 12px;
+                background-color: orange;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                font-size: 1.1rem;
+                font-weight: bold;
+                cursor: pointer;
+            
+            }
+            button:hover {
+                background-color:darkgoldenrod;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <form id = "Activity-Form" action="/submit-run" method = "GET">
+            <div class = "form-group">
+                <label for ="activity-date"> Date of Run: </label>
+                <input type = "date" id = "activity-date" name ="activityDate" required>
+
+            </div>
+
+            <div class ="from-group">
+                <label for = "actvity-desc">Run Description: </label>
+                <input type = "text" id = "activity-desc" name="activityDescription" placeholder="e.g., Morning Run Zone 2 Run" required>
+            </div>
+
+            <button type="submit">Log Run</button>
+        </form>
+    </body>
