@@ -15,7 +15,7 @@ const server = http.createServer();
 
 // Listens to the port and ready for requests from clients
 server.on("listening", listenhandler);
-server.listen(port);
+server.listen(port, host);
 function listenhandler(){
     console.log(`Now Listening on Port ${port}`);
     console.log(server.address());

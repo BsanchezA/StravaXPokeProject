@@ -1,0 +1,20 @@
+# Secrets: any file with "credentials" in the name
+*credentials*
+credentials.example.json
+
+# Token / cache files
+*cache*.json
+*.cache
+
+# Environment files
+.env
+.env.*
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
