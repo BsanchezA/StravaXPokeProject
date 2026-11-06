@@ -1,6 +1,6 @@
 # Secrets: any file with "credentials" in the name
 *credentials*
-credentials.example.json
+!Template_credentials.json
 
 # Token / cache files
 *cache*.json
