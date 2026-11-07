@@ -61,7 +61,8 @@ Strava (OAuth) ──► Stravamain.js ──► Pokerunlogic.js ──► Poké
 - PokéAPI
 
 ## Roadmap
-- [ ] _Add planned features here_
+- [ ] _Make Pokémon run dynamic to new activiies once loaded_
+- [ ] _Create a list of what was captured_
 
 ## Author
 **Bryan Sanchez**, CS @ Queens College (CUNY)
