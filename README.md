@@ -1,6 +1,7 @@
 # PokéRun | Strava x PokéAPI
 
-Turn your runs into Pokémon catches. PokéRun connects to your Strava account, and allows you to pick a run, and uses the [PokéAPI](https://pokeapi.co/) to "catch" a Pokémon based on it. The catch is then written back to your Strava activity.
+Turn your runs into Pokémon catches. PokéRun's connects to your Strava account, and allows you to pick a run, and uses the [PokéAPI](https://pokeapi.co/) to "catch" a Pokémon based on it. The catch is then written back to your Strava activity in the description prompt. A personalized description can be typed and the pokémon "catch" will be added to the end of the description.
+PokéRu
 
 Built with plain **Node.js** using the core `http`/`https` modules, with no frameworks. Every request, redirect and OAuth step is handled by hand.
 
